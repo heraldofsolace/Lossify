@@ -30,9 +30,11 @@ if len(imgs) != 7:
     print("Error: images must have exactly 7 arguments")
     sys.exit(1)
 
-if 'ouputSize' not in config:
+if 'outputSize' not in config:
     config['outputSize'] = (512,512)
-    
+
+else:
+    config['outputSize'] = tuple(map(int,config['outputSize'].split(',')))
 size = config['outputSize']
 for index,img in enumerate(imgs):
     if 'name' not in img:
