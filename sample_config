@@ -1,0 +1,24 @@
+{
+	"images": [
+        {
+            "name":"some_image.png","size":"128,200","position":"20,20"
+        },{
+            "name":"some_image.png","size":"200,300","rotateAngle":80
+        },{
+            "name":"some_image.png"
+        },{
+            "name":"some_image.png"
+        },{
+            "name":"some_image.png"
+        },{
+            "name":"some_image.png"
+        },{
+            "name":"some_image.png"
+        }
+        
+	
+	],
+	"ouputName":"blah.png",
+	"outputSize":"1000,400",
+	"background":"100,20,10"
+}
