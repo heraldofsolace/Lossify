@@ -26,7 +26,7 @@ The name of the output file. Defaults to "loss.png"
 Comma seperated string of size (width, height) of the output. Defaults to 512,512.
 
 #### "background" (string) (optional)
-Background color of the output. Defaults to white.
+Background color of the output (r,g,b). Defaults to white(255,255,255).
 
 #### "images" (list) (required)
 
