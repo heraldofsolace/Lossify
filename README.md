@@ -30,7 +30,7 @@ Background color of the output (r,g,b). Defaults to white(255,255,255).
 
 #### "images" (list) (required)
 
-This option must be an array of length 7. Each entry in this array corresponds to one image. Each image supports these options:
+This option must be an array. Each entry in this array corresponds to one image. Each image supports these options:
   ##### "name" (string) (required)
   This option is path to the image file
   ##### "size" (string) (optional)
@@ -39,7 +39,16 @@ This option must be an array of length 7. Each entry in this array corresponds t
   This specifies the position at which this image will be pasted. For defaults see below
   ##### "rotateAngle" (integer) (optional)
   This specifies through which angle the image will be rotated. Defaults to 90 degree clockwise for the last one and 0 for others
-
+  ##### "id" (string) (optional)
+  This specifies the id of the image. The default ids are - 
+  1st panel: 1
+  2nd panel top-left: 2a
+  2nd panel bottom right: 2b
+  3rd panel top-left: 3a
+  3rd panel bottom right: 3b
+  4th panel top-left: 4a
+  4th panel bottom right: 4b
+  If you omit this property, an id will be assigned based on its index in the images list
 ## Layout and sizing
 
 This is the default layout of output image
